@@ -1,0 +1,45 @@
+.app {
+  width: 315px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.brand {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.nav {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  display: flex;
+}
+
+.nav-item {
+  display: inline-block;
+  flex: 1 auto;
+  text-align: center;
+  padding: 14px 0;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-item:not(:last-child) {
+  border-right: 1px solid #eee;
+}
+
+.section {
+  padding: 30px;
+}
+
+.section-title {
+  margin-top: 0;
+}
+
+.section-description {
+  line-height: 26px;
+}
